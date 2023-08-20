@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: myFont;
+    src: url(/assets/fontFamily/Lazy\ Monday.otf)
+}
+
+.lazyMonday {
+    font-family: myFont;
+    font-weight: 400 !important;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.img-cover {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.img-contain {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.fs-33 {
+    font-size: 33px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.fs-22 {
+    font-size: 22px;
+}
+
+.text-justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.bg-yellow {
+    background: #F9CA3E;
+}
+
+.h-28 {
+    height: 28px;
+}
+
+.fs-18 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.ps-10 {
+    padding-left: 5rem;
+}
+
+.fs-50 {
+    font-size: 50px;
+}
+
+.fs-21 {
+    font-size: 21px;
+}
+
+.fs-20 {
+    font-size: 20px;
+    color: #3C3C3C;
+    font-weight: 400;
+}
+
+.text-yellow {
+    color: #F9CA3E;
+}
+
+.text-dark-gray {
+    color: #3C3C3C;
+}
+
+.bg-light-yellow {
+    background: #FFE6C1;
+
+}
+
+.mt-15 {
+    margin-top: 15rem;
+}
+
+.btn-pill{
+    width: 8.5rem
+}
+
+/* media query  */
+@media (max-width: 991.98px) {
+    .ps-10 {
+        padding-left: 0;
+    }
+
+    .fs-30 {
+        font-size: 20px;
+        line-height: 24.38px;
+    }
+
+    .fs-21 {
+        font-size: 17px;
+    }
+}
+
+@media(max-width:767.98px) {
+    .fs-22 {
+        font-size: 17px;
+    }
+
+    .fs-12 {
+        font-size: 10.19px;
+    }
+
+    .fs-33 {
+        font-size: 20px;
+    }
+
+    .fs-21 {
+        font-size: 12.5px;
+    }
+
+}
+
+@media (max-width:600px) {
+    .mt-15{
+        margin-top: 9rem;
+    }
+}

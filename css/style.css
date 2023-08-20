@@ -1,0 +1,999 @@
+.nav {
+    height: 100px;
+    padding: 0px 40px 0px 40px;
+}
+
+
+/* slider  */
+
+.overlay-menu {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffffff7c;
+    z-index: 150;
+    backdrop-filter: blur(5px);
+    display: none;
+}
+
+.sidebar {
+    width: 18rem !important;
+    height: 100% !important;
+    position: fixed;
+    z-index: 200;
+    right: -18rem;
+    top: 0;
+    bottom: 0;
+    transition: all .3s ease-in;
+}
+
+.open {
+    right: 0 !important;
+    display: block !important;
+}
+
+
+
+
+.logo-img {
+    height: 51px;
+}
+
+.nav-top {
+    position: absolute;
+}
+
+.walpaper-text {
+    top: 35%;
+    left: 10%;
+}
+
+
+.container-width {
+    width: 1020px;
+}
+
+.hurt-img {
+    width: 22px;
+}
+
+.t1-img {
+    top: -15px;
+    right: -10px;
+}
+
+.t2-img {
+    bottom: -8px;
+    left: -10px;
+}
+
+.bg-text {
+    color: #3C3C3C;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 46.5px;
+}
+
+.icon-img1 {
+    top: -25px !important;
+    right: -30px !important;
+    height: 51px;
+}
+
+.icon-img2 {
+    bottom: 10px;
+    margin-left: 10px;
+    height: 51px;
+}
+
+.bg-dark-gray {
+    background: #3C3C3C;
+    height: 132px;
+}
+
+.line-bottom {
+    height: 14.6px;
+    bottom: -12px;
+}
+
+.pl-10 {
+    margin-left: 8rem;
+    margin-top: 2rem;
+}
+
+/* medical-carousel */
+.range {
+    height: 14px;
+    width: 100%;
+    border-radius: 10px;
+    background: #FCDCAB;
+}
+
+.hurt {
+    width: 24px !important;
+    height: 21px;
+}
+
+.range .range-width {
+    height: 14px;
+    width: 45%;
+    border-radius: 10px;
+    background: #F9CA3E;
+}
+
+#card-carousel2 .owl-nav button.owl-next {
+    font-size: 3rem;
+    height: 45px;
+    width: 45px;
+    color: #F9CA3E;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    top: -7.5rem;
+    right: 0px;
+    padding-bottom: 5px !important;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card-carousel2 .owl-nav button.owl-prev {
+    font-size: 3rem;
+    height: 45px;
+    width: 45px;
+    color: #F9CA3E;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    top: -7.5rem;
+    right: 3.8rem;
+    padding-bottom: 5px !important;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* medical-carousel end */
+
+.card-item {
+    width: 325px;
+    height: 368px;
+    border-radius: 15px;
+    padding-bottom: 30px #F9CA3E !important;
+    border: 0px 0px 122px 0px #F9CA3E !important;
+}
+
+.card-item2 {
+    width: 325px;
+    height: 465px;
+}
+
+.border-bottom-yellow {
+    border-bottom: 5px solid #F9CA3E !important;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.box-shadow {
+    box-shadow: 0px 8px 10px 2px rgb(226, 226, 226);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 180px;
+}
+
+/* truncate  */
+.truncate {
+    display: block;
+    overflow: hidden;
+    max-height: 2.9rem;
+    /* Adjust this value to the desired height */
+    text-align: left;
+    /* You can adjust this as needed */
+    position: relative;
+}
+
+.truncate::before {
+    content: "...";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-left: 4px;
+    /* Add some space between text and ellipsis */
+    background-color: white;
+    /* Match the background color */
+}
+
+
+#card-carousel .owl-nav button.owl-next {
+    font-size: 3rem;
+    height: 45px;
+    width: 45px;
+    color: #F9CA3E;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    top: 25%;
+    left: -20px;
+    padding-bottom: 5px !important;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card-carousel .owl-nav button.owl-prev {
+    font-size: 3rem;
+    height: 45px;
+    width: 45px;
+    color: #F9CA3E;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    top: 42%;
+    left: -20px;
+    padding-bottom: 5px !important;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.education-img {
+    height: 216px;
+    width: 100%;
+}
+
+.card-btn {
+    height: 48px;
+    border-radius: 8px;
+}
+
+.line-before {
+    width: 115px;
+    height: 3px;
+    display: block;
+    align-items: center;
+    background: #3C3C3C;
+}
+
+
+.owl-items {
+    width: 325px !important;
+    height: 465px !important;
+    margin: 0;
+}
+
+.card-img {
+    width: 325px;
+    height: 465px;
+}
+
+.img-rounded {
+    border-radius: 15px;
+    transition: .7s;
+}
+
+
+
+.img-shadow {
+    box-shadow: inset 0px -20px 100px 18px;
+}
+
+
+/* card carosel */
+#owl-carousel .owl-nav button.owl-prev {
+    font-size: 3rem;
+    height: 45px;
+    width: 45px;
+    color: #F9CA3E;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    top: 40%;
+    left: -4rem;
+    padding-bottom: 5px !important;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#owl-carousel .owl-nav button.owl-next {
+    font-size: 3rem;
+    height: 45px;
+    width: 45px;
+    color: #F9CA3E;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    top: 40%;
+    right: -4rem;
+    padding-bottom: 5px !important;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-rounded:hover {
+    backdrop-filter: blur(5px);
+}
+
+.img-rounded:hover .img-hover {
+    display: block;
+    transition: .7s;
+    opacity: 100%;
+}
+
+.hover-hide {
+    transition: .7s;
+}
+
+.img-rounded:hover .hover-hide {
+    opacity: 0;
+
+}
+
+.img-hover {
+    display: none;
+    opacity: 0;
+    transition: 1s;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #000;
+    width: 15px;
+    height: 15px;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    margin: 5px 3px;
+}
+
+.owl-theme .owl-dots,
+.owl-theme .owl-nav {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+
+.bg-gray-height {
+    height: 326px;
+    width: 100%;
+    background: #3C3C3C;
+}
+
+#countup {
+    font-size: 24px;
+    font-weight: bold;
+    color: blue;
+}
+
+/* blog */
+/* .blog-img {
+    height: 230px;
+} */
+
+#blog-carousel .owl-nav button.owl-prev {
+    font-size: 3rem;
+    height: 45px;
+    width: 45px;
+    color: #F9CA3E;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    top: 25%;
+    left: -1.5rem;
+    padding-bottom: 5px !important;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#blog-carousel .owl-nav button.owl-next {
+    font-size: 3rem;
+    height: 45px;
+    width: 45px;
+    color: #F9CA3E;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    top: 25%;
+    right: -1.5rem;
+    padding-bottom: 5px !important;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* question */
+.ques {
+    height: 121px;
+    width: 121px;
+    border-radius: 100%;
+    background: #F9CA3E;
+    top: -3.3rem;
+}
+
+.px-10 {
+    padding: 0 4rem;
+}
+
+.container-rounded {
+    border-radius: 30px;
+}
+
+/* accordion */
+
+.accordion {
+    background: transparent;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.accordion:after {
+    content: '\002B';
+    margin: 0;
+    color: black;
+    font-size: 20 px;
+    padding: 0 8px;
+    border: 2px solid black;
+    border-radius: 100%;
+    font-weight: 500;
+    float: right;
+    margin-left: 5px;
+}
+
+.actives:after {
+    content: "\2212";
+}
+
+.panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+
+/* ******************** */
+.mobile-img-client1 {
+    width: 100%;
+    height: 100%;
+    transform: scale(.7);
+    overflow: hidden;
+    border-radius: 1rem;
+    transition: all .3s ease-in-out;
+}
+
+.mobile-img-client1 img {
+    filter: grayscale(1);
+    transition: all .3s ease-in-out;
+}
+
+.faculty-carousel .owl-item.active.center .mobile-img-client1 {
+    /* height: 25rem !important; */
+    transform: scale(1);
+}
+
+.faculty-carousel .owl-stage {
+    display: flex;
+    align-items: center;
+}
+
+.faculty-carousel .owl-item.active.center .mobile-img-client1 img {
+    filter: grayscale(0);
+}
+
+#owl-carousel2 .owl-nav button.owl-next {
+    font-size: 3rem;
+    height: 45px;
+    width: 45px;
+    color: #F9CA3E;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    top: -6rem;
+    right: 3rem;
+    padding-bottom: 5px !important;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#owl-carousel2 .owl-nav button.owl-prev {
+    font-size: 3rem;
+    height: 45px;
+    width: 45px;
+    color: #F9CA3E;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    top: -6rem;
+    right: 6.5rem;
+    padding-bottom: 5px !important;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* meadia query start  */
+
+
+/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+/* @media (max-width: 575.98px) {
+    ...
+} */
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+    .bg-text {
+        font-size: 35px;
+    }
+
+    .icon-img1 {
+        top: -23px !important;
+        right: -27px !important;
+        height: 45px;
+    }
+
+    .icon-img2 {
+        bottom: 10px;
+        margin-left: 10px;
+        height: 45px;
+    }
+
+    /* childreen  */
+    .pl-10 {
+        margin-left: 5rem;
+        margin-top: 2rem;
+    }
+    .container-width {
+        width: 992px;
+    }
+}
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .walpaper-text {
+        top: 35%;
+        left: 7%;
+    }
+
+    .bg-text {
+        font-size: 35px;
+    }
+
+    .icon-img1 {
+        top: -23px !important;
+        right: -27px !important;
+        height: 40px;
+    }
+
+    .icon-img2 {
+        bottom: 10px;
+        margin-left: 10px;
+        height: 40px;
+    }
+    .container-width {
+        width: 100%x;
+    }
+}
+
+
+
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+    /* nav  */
+    .logo-img {
+        height: 40px;
+    }
+
+    .nav {
+        height: 80px;
+        padding: 0px 22px 0px 22px;
+    }
+
+    .nav-top {
+        position: static;
+    }
+
+    .walpaper-img {
+        height: 650px;
+        width: 100%;
+    }
+
+    .walpaper-text {
+        top: 15%;
+        left: 5%;
+    }
+
+    .bg-text {
+        font-size: 30px;
+        line-height: 42px;
+    }
+
+    .icon-img1 {
+        top: -23px !important;
+        right: -27px !important;
+        height: 40px;
+    }
+
+    .icon-img2 {
+        bottom: 10px;
+        margin-left: 8px;
+        height: 40px;
+    }
+
+    /* nav end  */
+    /* ***** */
+    .bg-dark-gray {
+        background: #3C3C3C;
+        height: 262px;
+        justify-content: center !important;
+        margin: auto;
+    }
+
+    .gray-div {
+        margin-top: 6.7rem;
+
+    }
+
+    /* **** */
+    .line-before {
+        width: 55px;
+        height: 3px;
+        display: block;
+        align-items: center;
+        background: #3C3C3C;
+    }
+
+    .container-width {
+        width: auto;
+    }
+
+    /* medical carousel */
+
+    #card-carousel2 .owl-nav button.owl-next {
+        font-size: 2.5rem;
+        height: 35px;
+        width: 35px;
+        top: -4.5rem;
+    }
+
+    #card-carousel2 .owl-nav button.owl-prev {
+        font-size: 2.5rem;
+        height: 35px;
+        width: 35px;
+        color: #F9CA3E;
+        border-radius: 50%;
+        background: #000;
+        position: absolute;
+        top: -4.5rem;
+        right: 2.8rem;
+        padding-bottom: 5px !important;
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* childreen */
+    .pl-10 {
+        margin-left: 0rem;
+        margin-top: 2rem;
+    }
+
+    #card-carousel .owl-nav button.owl-next {
+        font-size: 3rem;
+        height: 45px;
+        width: 45px;
+        color: #F9CA3E;
+        border-radius: 50%;
+        background: #000;
+        position: absolute;
+        top: 33%;
+        left: 85%;
+        padding-bottom: 5px !important;
+        margin-top: 0;
+    }
+
+    #card-carousel .owl-nav button.owl-prev {
+        font-size: 3rem;
+        height: 45px;
+        width: 45px;
+        color: #F9CA3E;
+        border-radius: 50%;
+        background: #000;
+        position: absolute;
+        top: 33%;
+        left: 0;
+        padding-bottom: 5px !important;
+        margin-top: 0;
+    }
+
+
+    /* carousel  */
+    #owl-carousel2 .owl-nav button.owl-next {
+        font-size: 2.5rem;
+        height: 35px;
+        width: 35px;
+        color: #F9CA3E;
+        border-radius: 50%;
+        background: #000;
+        position: absolute;
+        top: -6rem;
+        right: 3rem;
+        padding-bottom: 5px !important;
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #owl-carousel2 .owl-nav button.owl-prev {
+        font-size: 2.5rem;
+        height: 35px;
+        width: 35px;
+        color: #F9CA3E;
+        border-radius: 50%;
+        background: #000;
+        position: absolute;
+        top: -6rem;
+        right: 6.5rem;
+        padding-bottom: 5px !important;
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .border-bottom-yellow {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        transform: scale(.6);
+    }
+
+    #card-carousel .owl-item.active.center {
+        transform: scale(1.5) !important;
+    }
+
+    /* blog  */
+    .accordion:after {
+        content: '\002B';
+        margin: 0;
+        color: black;
+        font-size: 15px;
+        padding: 0 8px;
+        border: 2px solid black;
+        border-radius: 100%;
+        font-weight: 500;
+        float: right;
+        margin-left: 5px;
+    }
+
+    .actives:after {
+        content: "\2212";
+    }
+
+}
+
+
+
+
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .walpaper-text {
+        top: 15%;
+        left: 5%;
+    }
+
+    .bg-text {
+        font-size: 22.71px;
+        line-height: 27.41px;
+    }
+
+    .icon-img1 {
+        top: -15px !important;
+        right: -20px !important;
+        height: 30px;
+    }
+
+    .icon-img2 {
+        bottom: 7px;
+        margin-left: 3px;
+        height: 30px;
+    }
+
+    /* blog  */
+    .px-10 {
+        padding: 1rem;
+
+    }
+
+    .hurt-img {
+        width: 17px;
+    }
+
+    /* blog  */
+    #blog-carousel .owl-nav button.owl-prev {
+        font-size: 3rem;
+        height: 45px;
+        width: 45px;
+        color: #F9CA3E;
+        border-radius: 50%;
+        background: #000;
+        position: absolute;
+        top: 25%;
+        left: -0.3rem;
+        padding-bottom: 5px !important;
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #blog-carousel .owl-nav button.owl-next {
+        font-size: 3rem;
+        height: 45px;
+        width: 45px;
+        color: #F9CA3E;
+        border-radius: 50%;
+        background: #000;
+        position: absolute;
+        top: 25%;
+        right: -0.3rem;
+        padding-bottom: 5px !important;
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* owl-carousel 2 */
+    #owl-carousel2 .owl-nav button.owl-next {
+        font-size: 2.5rem;
+        height: 35px;
+        width: 35px;
+        color: #F9CA3E;
+        border-radius: 50%;
+        background: #000;
+        position: absolute;
+        top: -3.5rem;
+        right: 2rem;
+        padding-bottom: 5px !important;
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #owl-carousel2 .owl-nav button.owl-prev {
+        font-size: 2.5rem;
+        height: 35px;
+        width: 35px;
+        color: #F9CA3E;
+        border-radius: 50%;
+        background: #000;
+        position: absolute;
+        top: -3.5rem;
+        right: 4.7rem;
+        padding-bottom: 5px !important;
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+/* card carosel */
+#owl-carousel .owl-nav button.owl-prev {
+    font-size: 3rem;
+    height: 45px;
+    width: 45px;
+    color: #F9CA3E;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    top: 40%;
+    left: -1.5rem;
+    padding-bottom: 5px !important;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#owl-carousel .owl-nav button.owl-next {
+    font-size: 3rem;
+    height: 45px;
+    width: 45px;
+    color: #F9CA3E;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    top: 40%;
+    right: -1.5rem;
+    padding-bottom: 5px !important;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+    /* card-carousel */
+    .border-bottom-yellow {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        transform: scale(.9);
+    }
+
+    #card-carousel .owl-item.active.center {
+        transform: scale(1.2) !important;
+    }
+
+}
+@media(max-width:600px){
+    
+/* card carosel */
+#owl-carousel .owl-nav button.owl-prev {
+    font-size: 3rem;
+    height: 45px;
+    width: 45px;
+    color: #F9CA3E;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    top: 40%;
+    left: 0rem;
+    padding-bottom: 5px !important;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#owl-carousel .owl-nav button.owl-next {
+    font-size: 3rem;
+    height: 45px;
+    width: 45px;
+    color: #F9CA3E;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    top: 40%;
+    right: 0rem;
+    padding-bottom: 5px !important;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+}
